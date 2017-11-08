@@ -12,7 +12,7 @@
 #' @return A spatstat \code{spatstat} \code{ppp} object
 #' 
 #' @examples 
-#' 
+#' \donttest{
 #' # Load Gorilla data
 #' 
 #' data("gorillas", package = "inlabru")
@@ -25,6 +25,9 @@
 #' # Plot it
 #' 
 #' plot(gp)
+#' 
+#' }
+#' 
 
 
 spatial.to.ppp = function(points, samplers) {

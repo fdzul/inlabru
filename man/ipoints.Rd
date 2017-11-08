@@ -45,6 +45,7 @@ points in the one-dimensional case.
 }
 \examples{
 
+\donttest{
 # Create 50 integration points covering the dimension 'myDim' between 0 and 10. 
 
 ips = ipoints(c(0,10), 50, name = "myDim")
@@ -81,6 +82,8 @@ ggplot() + gg(gorillas$mesh) +  gg(gorillas$boundary) + gg(ips, aes(size = weigh
 
 ips = ipoints(gorillas$mesh)
 ggplot() + gg(gorillas$boundary) + gg(ips, aes(size = weight))
+
+}
 
 }
 \author{

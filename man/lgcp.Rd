@@ -42,9 +42,9 @@ assumed that all of the LGCP's dimensions have been observed completely.
 }
 \examples{
 
-\dontrun{
+\donttest{
 
-Load the Gorilla data
+# Load the Gorilla data
 data(gorillas)
 
 # Use tutorial setting and thus empirical Bayes for faster inference

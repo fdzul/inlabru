@@ -35,7 +35,7 @@ value drawn in course of estimating the statistics.
 Internally, this method calls \link{generate.bru} in order to draw samples from the model.
 }
 \examples{
-\dontrun{
+\donttest{
 # Load the Gorilla data
 
 data(gorillas)

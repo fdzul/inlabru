@@ -100,9 +100,11 @@ setMethod("vertices", signature("inla.mesh"), function(object) vertices.inla.mes
 #' 
 #' @examples
 #' 
+#' \donttest{
 #' data("mrsea")
 #' vrt = vertices(mrsea$mesh)
 #' ggplot() + gg(mrsea$mesh) + gg(vrt, color = "red")
+#' }
 #' 
 
 vertices.inla.mesh = function(object) {
@@ -136,10 +138,11 @@ vertices.inla.mesh = function(object) {
 #' @return \code{SpatialPixels} covering the mesh
 #' 
 #' @examples
-#' 
+#' \donttest{
 #' data("mrsea")
 #' pxl = pixels(mrsea$mesh, nx = 50, ny = 50)
 #' ggplot() + gg(pxl) + gg(mrsea$mesh)
+#' }
 #' 
 
 pixels = function(mesh, nx = 150, ny = 150, mask = TRUE) {

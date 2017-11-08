@@ -33,6 +33,7 @@ Point data and count data, together with intensity function and expected counts 
 a unimodal nonhomogeneous 1-dimensional Poisson process example.
 }
 \examples{
+\donttest{
 library(inlabru)
 library(ggplot2)
 data(Poisson2_1D)
@@ -48,4 +49,6 @@ p2 = ggplot() +
   geom_point(data = pts2, aes(x=x), y = 0.2, shape = "|",cex=4) +
   xlab(expression(bold(s))) +ylab(expression(lambda(bold(s))))
 multiplot(p1,p2,cols=1)
+}
+
 }

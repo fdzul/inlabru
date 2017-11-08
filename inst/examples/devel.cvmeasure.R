@@ -1,4 +1,4 @@
-\dontrun{
+\donttest{
 # Load Gorilla data
 
 data("gorillas")

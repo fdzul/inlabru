@@ -21,6 +21,7 @@ Converts a plot sample with locations of each point within each plot, into a plo
 sample with only the count within each plot.
 }
 \examples{
+\donttest{
 library(inlabru)
 library(raster)
 data(gorillas)
@@ -32,5 +33,6 @@ y=coordinates(countdata)[,2]
 count=countdata@data$n
 p2 = ggplot() +gg(gorillas$boundary) +gg(plotpts$plots) +  geom_text(aes(label=count, x=x, y=y))
 multiplot(p1,p2,cols=2)
+}
 
 }

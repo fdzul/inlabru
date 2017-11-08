@@ -1,3 +1,4 @@
+\donttest{
 # Load the data
 
 data("toygroups")
@@ -22,3 +23,4 @@ ggplot(toygroups$groups) +
 
 ggplot(toygroups$df.rate) +
   geom_line(aes(x,rate))
+}

@@ -1,3 +1,4 @@
+\donttest{
 # Load Gorilla data
 
 data("gorillas")
@@ -42,3 +43,5 @@ ggplot() + gg(mexdolphin$samplers, aes(color = seg))
 
 names(mexdolphin$points) # 'size' holds the group size
 ggplot() + gg(mexdolphin$points, aes(size = size))
+
+}

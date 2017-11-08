@@ -21,6 +21,7 @@ This data set serves to teach the concept of modelling species that gather in gr
 the grouping behaviour depends on space.
 }
 \examples{
+\donttest{
 # Load the data
 
 data("toygroups")
@@ -45,4 +46,5 @@ ggplot(toygroups$groups) +
 
 ggplot(toygroups$df.rate) +
   geom_line(aes(x,rate))
+}
 }

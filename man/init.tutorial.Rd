@@ -11,7 +11,7 @@ Increases verbosity and sets the inference strategy to empirical Bayes.
 }
 \examples{
 
-\dontrun{
+\donttest{
 
 # Determine current bru default:
 bo = bru.options()
@@ -19,8 +19,7 @@ bo = bru.options()
 # By default, INLA's integration strategy is set to the INLA default 'auto':
 bo$inla.options$control.inla
 
-# Now, let's run init.tutorial() to make empirical Bayes the default 
-integration method when \\code{bru} calls \\code{inla}
+# Run init.tutorial() to make empirical Bayes the default method when \\code{bru} calls \\code{inla}
 
 init.tutorial()
 

@@ -54,6 +54,7 @@
 #' 26 (6), 793-811.
 #' 
 #' @examples
+#' \donttest{
 #' data(gorillas) # get the data
 #' # extract all the objects, for convenience:
 #'
@@ -65,6 +66,7 @@
 #'
 #' # Plot the plot sample
 #' ggplot() + gg(gorillas$plotsample$plots) + gg(gorillas$plotsample$nests)
+#' }
 NULL
 
 #' Gorilla data import

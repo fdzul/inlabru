@@ -24,7 +24,7 @@
 #' 
 #' @examples 
 #' 
-#' \dontrun{
+#' \donttest{
 #' 
 #' # Load a point pattern
 #' data(Poisson2_1D)

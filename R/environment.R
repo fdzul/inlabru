@@ -9,13 +9,12 @@ iinla.env$log = sprintf("inlabru @ %s", date())
 #'
 #' @aliases init.tutorial
 #' @export
-#' 
 #' @return NULL
 #' @author Fabian E. Bachl <\email{bachlfab@@gmail.com}>
 #' 
 #' @examples
 #' 
-#' \dontrun{
+#' \donttest{
 #' 
 #' # Determine current bru default:
 #' bo = bru.options()
@@ -23,8 +22,7 @@ iinla.env$log = sprintf("inlabru @ %s", date())
 #' # By default, INLA's integration strategy is set to the INLA default 'auto':
 #' bo$inla.options$control.inla
 #' 
-#' # Now, let's run init.tutorial() to make empirical Bayes the default 
-#' integration method when \code{bru} calls \code{inla}
+#' # Run init.tutorial() to make empirical Bayes the default method when \code{bru} calls \code{inla}
 #' 
 #' init.tutorial()
 #' 

@@ -254,7 +254,7 @@ stackmaker.like = function(lhood) {
 #' 
 #' @examples
 #' 
-#' \dontrun{
+#' \donttest{
 #' 
 #' # Generate default bru options
 #' opts = bru.options()
@@ -435,9 +435,9 @@ bru.components = function() { NULL }
 #' @return An \link{bru} object
 #' @examples
 #' 
-#' \dontrun{
+#' \donttest{
 #' 
-#' Load the Gorilla data
+#' # Load the Gorilla data
 #' data(gorillas)
 #' 
 #' # Use tutorial setting and thus empirical Bayes for faster inference

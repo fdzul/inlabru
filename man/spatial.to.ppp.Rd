@@ -22,7 +22,7 @@ function uses a SpatialPoints object and a SpatialPolygon object to generate the
 and the window. Lastly, the ppp() function is called to create the \code{ppp} object.
 }
 \examples{
-
+\donttest{
 # Load Gorilla data
 
 data("gorillas", package = "inlabru")
@@ -35,4 +35,7 @@ class(gp)
 # Plot it
 
 plot(gp)
+
+}
+
 }
